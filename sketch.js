@@ -33,6 +33,10 @@ function setup() {
   recommendationText = createDiv('');
   recommendationText.addClass('recommendation');
   recommendationText.parent('sketch-holder');
+
+  recommendationImg = createDiv('');
+  recommendationImg.addClass('recommendation');
+  recommendationImg.parent('sketch-holder');
 }
 
 function recommendMovie() {
