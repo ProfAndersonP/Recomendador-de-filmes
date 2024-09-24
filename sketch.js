@@ -52,7 +52,7 @@ function getMovieRecommendation(age, genre) {
   // Banco de dados simples de filmes
   let movies = {
     'Ação': [
-      { title: 'Os Vingadores', minAge: 12 },
+      { title: 'Os Vingadores - Guerra infinita', minAge: 12 },
       { title: 'Missão Impossível', minAge: 14 },
       { title: 'Mad Max: Estrada da Fúria', minAge: 16 }
     ],
