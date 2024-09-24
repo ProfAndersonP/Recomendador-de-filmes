@@ -45,6 +45,7 @@ function recommendMovie() {
   let movie = getMovieRecommendation(age, genre);
 
   recommendationText.html(`Recomendação: ${movie}`);
+  recommendationIMG.html($img);
 }
 
 function getMovieRecommendation(age, genre) {
